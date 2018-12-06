@@ -1,0 +1,24 @@
+/* 
+- L'application fait maximum 500 pixels de large
+- Centrer toute l'application dans la page
+*/
+    header, main{
+        max-width: 50rem;
+        margin: auto;
+    }
+/**/
+
+/* 
+Le footer est toujours fixé en bas de la page
+*/
+    footer{
+        text-align: center;
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
+        background-color: black;
+    }
+/**/
